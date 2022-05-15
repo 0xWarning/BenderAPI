@@ -24,6 +24,17 @@ namespace test
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //MessageBox.Show(DateTime.Now.ToShortDateString());
+            if (config.AppSettings.Settings["lDate"].Value == DateTime.Now.ToShortDateString())
+            {
+
+            }
+            else
+            {
+                config.AppSettings.Settings["todCall"].Value = "0";
+                config.AppSettings.Settings["lDate"].Value = DateTime.Now.ToShortDateString();
+            }
+
             DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle(config.AppSettings.Settings["currentTheme"].Value);
 
             if (config.AppSettings.Settings["alwaysTop"].Value == "true")
@@ -340,7 +351,7 @@ namespace test
                 richTextBox1.SelectionStart = richTextBox1.TextLength;
                 richTextBox1.SelectionLength = 0;
                 result = result.Replace("<font color=\"blue\">", "").Replace("</font>", "");
-                richTextBox1.SelectionColor = Color.Pink;
+                richTextBox1.SelectionColor = Color.Purple;
                 richTextBox1.AppendText(result + "\n");
                 richTextBox1.SelectionColor = richTextBox1.ForeColor;
                 apiStatusText.Text = "Request received";
@@ -355,7 +366,7 @@ namespace test
                 richTextBox1.SelectionStart = richTextBox1.TextLength;
                 richTextBox1.SelectionLength = 0;
                 result = result.Replace("<font color=\"blue\">", "").Replace("</font>", "");
-                richTextBox1.SelectionColor = Color.Pink;
+                richTextBox1.SelectionColor = Color.Orange;
                 richTextBox1.AppendText(result + "\n");
                 richTextBox1.SelectionColor = richTextBox1.ForeColor;
                 apiStatusText.Text = "Request received";
@@ -369,8 +380,8 @@ namespace test
                 string result = web.DownloadString("http://localhost/isup?key=UUQl6GVF3wQTAvdv3wo5voryL6cRFDYgcp7V1IFqYyduU&output=html&host=" + apiInputTextBox.Text);
                 richTextBox1.SelectionStart = richTextBox1.TextLength;
                 richTextBox1.SelectionLength = 0;
-                result = result.Replace("<font color=\"blue\">", "").Replace("</font>", "");
-                richTextBox1.SelectionColor = Color.Pink;
+                result = result.Replace("<font color=\"#ff8c00\">", "").Replace("</font>", "").Replace("<font color=\"green\">", "");
+                richTextBox1.SelectionColor = Color.DarkGoldenrod;
                 richTextBox1.AppendText(result + "\n");
                 richTextBox1.SelectionColor = richTextBox1.ForeColor;
                 apiStatusText.Text = "Request received";

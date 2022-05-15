@@ -439,6 +439,7 @@
             this.simpleButton11.AllowFocus = false;
             this.simpleButton11.Location = new System.Drawing.Point(5, 81);
             this.simpleButton11.Name = "simpleButton11";
+            this.simpleButton11.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.simpleButton11.Size = new System.Drawing.Size(322, 23);
             this.simpleButton11.TabIndex = 19;
             this.simpleButton11.TabStop = false;
@@ -654,6 +655,7 @@
             // 
             this.simpleButton1.Location = new System.Drawing.Point(5, 22);
             this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.simpleButton1.Size = new System.Drawing.Size(264, 25);
             this.simpleButton1.TabIndex = 25;
             this.simpleButton1.Text = "Send Request";
