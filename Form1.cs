@@ -33,6 +33,9 @@ namespace test
             }
 
             comboBoxEdit2.Text = config.AppSettings.Settings["currentTheme"].Value;
+
+            labelControl12.Text = "API Calls Today: " + config.AppSettings.Settings["todCall"].Value;
+            labelControl14.Text = "API Calls Overall: " + config.AppSettings.Settings["totCall"].Value;
         }
 
 
@@ -218,6 +221,22 @@ namespace test
 
             }
         }
+
+        private void Test()
+        {
+            int todCall = int.Parse(config.AppSettings.Settings["todCall"].Value);
+            int totCall = int.Parse(config.AppSettings.Settings["totCall"].Value);
+            todCall = todCall + 1;
+            totCall = totCall + 1;
+            string todcall2 = todCall.ToString();
+            string totCall2 = totCall.ToString();
+            config.AppSettings.Settings["todCall"].Value = todcall2;
+            config.AppSettings.Settings["totCall"].Value = totCall2;
+            config.Save();
+            ConfigurationManager.RefreshSection("appSettings");
+            labelControl12.Text = "API Calls Today: " + config.AppSettings.Settings["todCall"].Value;
+            labelControl14.Text = "API Calls Overall: " + config.AppSettings.Settings["totCall"].Value;
+        }
        
 
         private void simpleButton1_Click(object sender, EventArgs e)
@@ -232,6 +251,9 @@ namespace test
                 richTextBox1.SelectionColor = Color.Red;
                 richTextBox1.AppendText(result + "\n");
                 richTextBox1.SelectionColor = richTextBox1.ForeColor;
+                apiStatusText.Text = "Request received";
+                apiStatusText.ForeColor = Color.Lime;
+                Test();
             }
 
             if (checkEdit2.Checked)
@@ -245,6 +267,9 @@ namespace test
                 richTextBox1.SelectionColor = Color.Green;
                 richTextBox1.AppendText(result + "\n");
                 richTextBox1.SelectionColor = richTextBox1.ForeColor;
+                apiStatusText.Text = "Request received";
+                apiStatusText.ForeColor = Color.Lime;
+                Test();
             }
 
             if (checkEdit4.Checked)
@@ -257,6 +282,9 @@ namespace test
                 richTextBox1.SelectionColor = Color.Yellow;
                 richTextBox1.AppendText(result + "\n");
                 richTextBox1.SelectionColor = richTextBox1.ForeColor;
+                apiStatusText.Text = "Request received";
+                apiStatusText.ForeColor = Color.Lime;
+                Test();
             }
 
             if (checkEdit3.Checked)
@@ -270,6 +298,9 @@ namespace test
                 richTextBox1.SelectionColor = Color.DarkCyan;
                 richTextBox1.AppendText(result + "\n");
                 richTextBox1.SelectionColor = richTextBox1.ForeColor;
+                apiStatusText.Text = "Request received";
+                apiStatusText.ForeColor = Color.Lime;
+                Test();
             }
 
             if (checkEdit5.Checked)
@@ -282,6 +313,9 @@ namespace test
                 richTextBox1.SelectionColor = Color.HotPink;
                 richTextBox1.AppendText(result + "\n");
                 richTextBox1.SelectionColor = richTextBox1.ForeColor;
+                apiStatusText.Text = "Request received";
+                apiStatusText.ForeColor = Color.Lime;
+                Test();
             }
 
             if (checkEdit6.Checked)
@@ -294,6 +328,9 @@ namespace test
                 richTextBox1.SelectionColor = Color.Pink;
                 richTextBox1.AppendText(result + "\n");
                 richTextBox1.SelectionColor = richTextBox1.ForeColor;
+                apiStatusText.Text = "Request received";
+                apiStatusText.ForeColor = Color.Lime;
+                Test();
             }
         }
     }
