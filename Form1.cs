@@ -332,6 +332,51 @@ namespace test
                 apiStatusText.ForeColor = Color.Lime;
                 Test();
             }
+
+            if (checkEdit7.Checked)
+            {
+                WebClient web = new WebClient();
+                string result = web.DownloadString("http://localhost/portscan?key=UUQl6GVF3wQTAvdv3wo5voryL6cRFDYgcp7V1IFqYyduU&output=html&host=" + apiInputTextBox.Text);
+                richTextBox1.SelectionStart = richTextBox1.TextLength;
+                richTextBox1.SelectionLength = 0;
+                result = result.Replace("<font color=\"blue\">", "").Replace("</font>", "");
+                richTextBox1.SelectionColor = Color.Pink;
+                richTextBox1.AppendText(result + "\n");
+                richTextBox1.SelectionColor = richTextBox1.ForeColor;
+                apiStatusText.Text = "Request received";
+                apiStatusText.ForeColor = Color.Lime;
+                Test();
+            }
+
+            if (checkEdit8.Checked)
+            {
+                WebClient web = new WebClient();
+                string result = web.DownloadString("http://localhost/webshot?key=UUQl6GVF3wQTAvdv3wo5voryL6cRFDYgcp7V1IFqYyduU&output=html&url=" + apiInputTextBox.Text);
+                richTextBox1.SelectionStart = richTextBox1.TextLength;
+                richTextBox1.SelectionLength = 0;
+                result = result.Replace("<font color=\"blue\">", "").Replace("</font>", "");
+                richTextBox1.SelectionColor = Color.Pink;
+                richTextBox1.AppendText(result + "\n");
+                richTextBox1.SelectionColor = richTextBox1.ForeColor;
+                apiStatusText.Text = "Request received";
+                apiStatusText.ForeColor = Color.Lime;
+                Test();
+            }
+
+            if (checkEdit9.Checked)
+            {
+                WebClient web = new WebClient();
+                string result = web.DownloadString("http://localhost/isup?key=UUQl6GVF3wQTAvdv3wo5voryL6cRFDYgcp7V1IFqYyduU&output=html&host=" + apiInputTextBox.Text);
+                richTextBox1.SelectionStart = richTextBox1.TextLength;
+                richTextBox1.SelectionLength = 0;
+                result = result.Replace("<font color=\"blue\">", "").Replace("</font>", "");
+                richTextBox1.SelectionColor = Color.Pink;
+                richTextBox1.AppendText(result + "\n");
+                richTextBox1.SelectionColor = richTextBox1.ForeColor;
+                apiStatusText.Text = "Request received";
+                apiStatusText.ForeColor = Color.Lime;
+                Test();
+            }
         }
     }
 }

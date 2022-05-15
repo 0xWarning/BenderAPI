@@ -31,11 +31,27 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabPane1 = new DevExpress.XtraBars.Navigation.TabPane();
             this.homeTab = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.groupControl11 = new DevExpress.XtraEditors.GroupControl();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
+            this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
+            this.groupControl10 = new DevExpress.XtraEditors.GroupControl();
+            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
             this.versionLabel = new DevExpress.XtraEditors.LabelControl();
             this.hyperlinkLabelControl3 = new DevExpress.XtraEditors.HyperlinkLabelControl();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
             this.loggingTab = new DevExpress.XtraBars.Navigation.TabNavigationPage();
@@ -47,6 +63,8 @@
             this.onTopSwitch = new DevExpress.XtraEditors.ToggleSwitch();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.apiToolsTab = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.groupControl9 = new DevExpress.XtraEditors.GroupControl();
+            this.apiStatusText = new DevExpress.XtraEditors.TextEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.hyperlinkLabelControl1 = new DevExpress.XtraEditors.HyperlinkLabelControl();
@@ -70,31 +88,20 @@
             this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
-            this.groupControl9 = new DevExpress.XtraEditors.GroupControl();
-            this.apiStatusText = new DevExpress.XtraEditors.TextEdit();
-            this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.groupControl10 = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.groupControl11 = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
-            this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).BeginInit();
             this.tabPane1.SuspendLayout();
             this.homeTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl11)).BeginInit();
+            this.groupControl11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl10)).BeginInit();
+            this.groupControl10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
             this.optionsTab.SuspendLayout();
@@ -103,6 +110,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.onTopSwitch.Properties)).BeginInit();
             this.apiToolsTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).BeginInit();
+            this.groupControl9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.apiStatusText.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
@@ -126,16 +136,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).BeginInit();
-            this.groupControl9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.apiStatusText.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl10)).BeginInit();
-            this.groupControl10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl11)).BeginInit();
-            this.groupControl11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // tabPane1
@@ -169,6 +169,118 @@
             this.homeTab.Controls.Add(this.pictureEdit2);
             this.homeTab.Name = "homeTab";
             this.homeTab.Size = new System.Drawing.Size(509, 477);
+            // 
+            // groupControl11
+            // 
+            this.groupControl11.Controls.Add(this.labelControl12);
+            this.groupControl11.Controls.Add(this.labelControl14);
+            this.groupControl11.Controls.Add(this.pictureEdit4);
+            this.groupControl11.Location = new System.Drawing.Point(293, 276);
+            this.groupControl11.Name = "groupControl11";
+            this.groupControl11.Size = new System.Drawing.Size(209, 62);
+            this.groupControl11.TabIndex = 25;
+            this.groupControl11.Text = "User Statistics";
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Location = new System.Drawing.Point(53, 43);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(98, 13);
+            this.labelControl12.TabIndex = 22;
+            this.labelControl12.Text = "API Calls Overall: 20";
+            // 
+            // labelControl14
+            // 
+            this.labelControl14.Location = new System.Drawing.Point(53, 24);
+            this.labelControl14.Name = "labelControl14";
+            this.labelControl14.Size = new System.Drawing.Size(88, 13);
+            this.labelControl14.TabIndex = 2;
+            this.labelControl14.Text = "API Calls Today: 0";
+            // 
+            // pictureEdit4
+            // 
+            this.pictureEdit4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit4.EditValue = ((object)(resources.GetObject("pictureEdit4.EditValue")));
+            this.pictureEdit4.Location = new System.Drawing.Point(5, 24);
+            this.pictureEdit4.Name = "pictureEdit4";
+            this.pictureEdit4.Properties.AllowFocused = false;
+            this.pictureEdit4.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit4.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit4.Properties.ShowMenu = false;
+            this.pictureEdit4.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom;
+            this.pictureEdit4.Size = new System.Drawing.Size(42, 32);
+            this.pictureEdit4.TabIndex = 21;
+            // 
+            // groupControl10
+            // 
+            this.groupControl10.Controls.Add(this.simpleButton5);
+            this.groupControl10.Controls.Add(this.simpleButton4);
+            this.groupControl10.Controls.Add(this.simpleButton3);
+            this.groupControl10.Controls.Add(this.simpleButton2);
+            this.groupControl10.Controls.Add(this.labelControl11);
+            this.groupControl10.Controls.Add(this.textEdit1);
+            this.groupControl10.Location = new System.Drawing.Point(3, 344);
+            this.groupControl10.Name = "groupControl10";
+            this.groupControl10.Size = new System.Drawing.Size(500, 86);
+            this.groupControl10.TabIndex = 26;
+            this.groupControl10.Text = "API Key Control";
+            // 
+            // simpleButton5
+            // 
+            this.simpleButton5.Location = new System.Drawing.Point(10, 51);
+            this.simpleButton5.Name = "simpleButton5";
+            this.simpleButton5.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.simpleButton5.Size = new System.Drawing.Size(83, 25);
+            this.simpleButton5.TabIndex = 30;
+            this.simpleButton5.Text = "Copy";
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Location = new System.Drawing.Point(217, 51);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.simpleButton4.Size = new System.Drawing.Size(145, 25);
+            this.simpleButton4.TabIndex = 29;
+            this.simpleButton4.Text = "Request Custom API Key";
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Location = new System.Drawing.Point(99, 51);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.simpleButton3.Size = new System.Drawing.Size(112, 25);
+            this.simpleButton3.TabIndex = 28;
+            this.simpleButton3.Text = "...";
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Enabled = false;
+            this.simpleButton2.Location = new System.Drawing.Point(368, 51);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.simpleButton2.Size = new System.Drawing.Size(112, 25);
+            this.simpleButton2.TabIndex = 27;
+            this.simpleButton2.Text = "Lock";
+            // 
+            // labelControl11
+            // 
+            this.labelControl11.Location = new System.Drawing.Point(10, 24);
+            this.labelControl11.Name = "labelControl11";
+            this.labelControl11.Size = new System.Drawing.Size(78, 13);
+            this.labelControl11.TabIndex = 26;
+            this.labelControl11.Text = "Current API Key";
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.EditValue = "UUQl6GVF3wQTAvdv3wo5voryL6cRFDYgcp7V1IFqYyduU";
+            this.textEdit1.Location = new System.Drawing.Point(108, 21);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Properties.ReadOnly = true;
+            this.textEdit1.Size = new System.Drawing.Size(372, 20);
+            this.textEdit1.TabIndex = 25;
+            this.textEdit1.TabStop = false;
             // 
             // panelControl4
             // 
@@ -223,6 +335,54 @@
             this.groupControl2.Size = new System.Drawing.Size(210, 102);
             this.groupControl2.TabIndex = 16;
             this.groupControl2.Text = "User Information";
+            // 
+            // labelControl9
+            // 
+            this.labelControl9.Location = new System.Drawing.Point(76, 81);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(93, 13);
+            this.labelControl9.TabIndex = 24;
+            this.labelControl9.Text = "Max Requests: 125";
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Location = new System.Drawing.Point(76, 62);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(82, 13);
+            this.labelControl7.TabIndex = 23;
+            this.labelControl7.Text = "Expiry: LIFETIME";
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Location = new System.Drawing.Point(76, 43);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(60, 13);
+            this.labelControl6.TabIndex = 22;
+            this.labelControl6.Text = "Rank: TRIAL";
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Location = new System.Drawing.Point(76, 24);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(58, 13);
+            this.labelControl5.TabIndex = 2;
+            this.labelControl5.Text = "User: DEMO";
+            // 
+            // pictureEdit3
+            // 
+            this.pictureEdit3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit3.EditValue = ((object)(resources.GetObject("pictureEdit3.EditValue")));
+            this.pictureEdit3.Location = new System.Drawing.Point(5, 24);
+            this.pictureEdit3.Name = "pictureEdit3";
+            this.pictureEdit3.Properties.AllowFocused = false;
+            this.pictureEdit3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit3.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit3.Properties.ShowMenu = false;
+            this.pictureEdit3.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom;
+            this.pictureEdit3.Size = new System.Drawing.Size(65, 70);
+            this.pictureEdit3.TabIndex = 21;
             // 
             // groupControl1
             // 
@@ -385,6 +545,27 @@
             this.apiToolsTab.Controls.Add(this.pictureEdit1);
             this.apiToolsTab.Name = "apiToolsTab";
             this.apiToolsTab.Size = new System.Drawing.Size(509, 477);
+            // 
+            // groupControl9
+            // 
+            this.groupControl9.Controls.Add(this.apiStatusText);
+            this.groupControl9.Location = new System.Drawing.Point(293, 370);
+            this.groupControl9.Name = "groupControl9";
+            this.groupControl9.Size = new System.Drawing.Size(210, 47);
+            this.groupControl9.TabIndex = 24;
+            this.groupControl9.Text = "API Status";
+            // 
+            // apiStatusText
+            // 
+            this.apiStatusText.EditValue = "Waiting to send request";
+            this.apiStatusText.Location = new System.Drawing.Point(5, 19);
+            this.apiStatusText.Name = "apiStatusText";
+            this.apiStatusText.Properties.Appearance.ForeColor = System.Drawing.Color.Gold;
+            this.apiStatusText.Properties.Appearance.Options.UseForeColor = true;
+            this.apiStatusText.Properties.ReadOnly = true;
+            this.apiStatusText.Size = new System.Drawing.Size(199, 20);
+            this.apiStatusText.TabIndex = 27;
+            this.apiStatusText.TabStop = false;
             // 
             // panelControl1
             // 
@@ -653,187 +834,6 @@
             this.pictureEdit1.Size = new System.Drawing.Size(500, 159);
             this.pictureEdit1.TabIndex = 21;
             // 
-            // groupControl9
-            // 
-            this.groupControl9.Controls.Add(this.apiStatusText);
-            this.groupControl9.Location = new System.Drawing.Point(293, 370);
-            this.groupControl9.Name = "groupControl9";
-            this.groupControl9.Size = new System.Drawing.Size(210, 47);
-            this.groupControl9.TabIndex = 24;
-            this.groupControl9.Text = "API Status";
-            // 
-            // apiStatusText
-            // 
-            this.apiStatusText.EditValue = "Waiting to send request";
-            this.apiStatusText.Location = new System.Drawing.Point(5, 19);
-            this.apiStatusText.Name = "apiStatusText";
-            this.apiStatusText.Properties.Appearance.ForeColor = System.Drawing.Color.Gold;
-            this.apiStatusText.Properties.Appearance.Options.UseForeColor = true;
-            this.apiStatusText.Properties.ReadOnly = true;
-            this.apiStatusText.Size = new System.Drawing.Size(199, 20);
-            this.apiStatusText.TabIndex = 27;
-            this.apiStatusText.TabStop = false;
-            // 
-            // pictureEdit3
-            // 
-            this.pictureEdit3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureEdit3.EditValue = ((object)(resources.GetObject("pictureEdit3.EditValue")));
-            this.pictureEdit3.Location = new System.Drawing.Point(5, 24);
-            this.pictureEdit3.Name = "pictureEdit3";
-            this.pictureEdit3.Properties.AllowFocused = false;
-            this.pictureEdit3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEdit3.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.pictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit3.Properties.ShowMenu = false;
-            this.pictureEdit3.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom;
-            this.pictureEdit3.Size = new System.Drawing.Size(65, 70);
-            this.pictureEdit3.TabIndex = 21;
-            // 
-            // labelControl5
-            // 
-            this.labelControl5.Location = new System.Drawing.Point(76, 24);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(58, 13);
-            this.labelControl5.TabIndex = 2;
-            this.labelControl5.Text = "User: DEMO";
-            // 
-            // labelControl6
-            // 
-            this.labelControl6.Location = new System.Drawing.Point(76, 43);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(60, 13);
-            this.labelControl6.TabIndex = 22;
-            this.labelControl6.Text = "Rank: TRIAL";
-            // 
-            // labelControl7
-            // 
-            this.labelControl7.Location = new System.Drawing.Point(76, 62);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(82, 13);
-            this.labelControl7.TabIndex = 23;
-            this.labelControl7.Text = "Expiry: LIFETIME";
-            // 
-            // labelControl9
-            // 
-            this.labelControl9.Location = new System.Drawing.Point(76, 81);
-            this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(93, 13);
-            this.labelControl9.TabIndex = 24;
-            this.labelControl9.Text = "Max Requests: 125";
-            // 
-            // groupControl10
-            // 
-            this.groupControl10.Controls.Add(this.simpleButton5);
-            this.groupControl10.Controls.Add(this.simpleButton4);
-            this.groupControl10.Controls.Add(this.simpleButton3);
-            this.groupControl10.Controls.Add(this.simpleButton2);
-            this.groupControl10.Controls.Add(this.labelControl11);
-            this.groupControl10.Controls.Add(this.textEdit1);
-            this.groupControl10.Location = new System.Drawing.Point(3, 344);
-            this.groupControl10.Name = "groupControl10";
-            this.groupControl10.Size = new System.Drawing.Size(500, 86);
-            this.groupControl10.TabIndex = 26;
-            this.groupControl10.Text = "API Key Control";
-            // 
-            // labelControl11
-            // 
-            this.labelControl11.Location = new System.Drawing.Point(10, 24);
-            this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(78, 13);
-            this.labelControl11.TabIndex = 26;
-            this.labelControl11.Text = "Current API Key";
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.EditValue = "UUQl6GVF3wQTAvdv3wo5voryL6cRFDYgcp7V1IFqYyduU";
-            this.textEdit1.Location = new System.Drawing.Point(108, 21);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Properties.ReadOnly = true;
-            this.textEdit1.Size = new System.Drawing.Size(372, 20);
-            this.textEdit1.TabIndex = 25;
-            this.textEdit1.TabStop = false;
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Enabled = false;
-            this.simpleButton2.Location = new System.Drawing.Point(368, 51);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.simpleButton2.Size = new System.Drawing.Size(112, 25);
-            this.simpleButton2.TabIndex = 27;
-            this.simpleButton2.Text = "Lock";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(99, 51);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.simpleButton3.Size = new System.Drawing.Size(112, 25);
-            this.simpleButton3.TabIndex = 28;
-            this.simpleButton3.Text = "...";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Location = new System.Drawing.Point(217, 51);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.simpleButton4.Size = new System.Drawing.Size(145, 25);
-            this.simpleButton4.TabIndex = 29;
-            this.simpleButton4.Text = "Request Custom API Key";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Location = new System.Drawing.Point(10, 51);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.simpleButton5.Size = new System.Drawing.Size(83, 25);
-            this.simpleButton5.TabIndex = 30;
-            this.simpleButton5.Text = "Copy";
-            // 
-            // groupControl11
-            // 
-            this.groupControl11.Controls.Add(this.labelControl12);
-            this.groupControl11.Controls.Add(this.labelControl14);
-            this.groupControl11.Controls.Add(this.pictureEdit4);
-            this.groupControl11.Location = new System.Drawing.Point(293, 276);
-            this.groupControl11.Name = "groupControl11";
-            this.groupControl11.Size = new System.Drawing.Size(209, 62);
-            this.groupControl11.TabIndex = 25;
-            this.groupControl11.Text = "User Statistics";
-            // 
-            // labelControl12
-            // 
-            this.labelControl12.Location = new System.Drawing.Point(53, 43);
-            this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(98, 13);
-            this.labelControl12.TabIndex = 22;
-            this.labelControl12.Text = "API Calls Overall: 20";
-            // 
-            // labelControl14
-            // 
-            this.labelControl14.Location = new System.Drawing.Point(53, 24);
-            this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(88, 13);
-            this.labelControl14.TabIndex = 2;
-            this.labelControl14.Text = "API Calls Today: 0";
-            // 
-            // pictureEdit4
-            // 
-            this.pictureEdit4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureEdit4.EditValue = ((object)(resources.GetObject("pictureEdit4.EditValue")));
-            this.pictureEdit4.Location = new System.Drawing.Point(5, 24);
-            this.pictureEdit4.Name = "pictureEdit4";
-            this.pictureEdit4.Properties.AllowFocused = false;
-            this.pictureEdit4.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEdit4.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.pictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit4.Properties.ShowMenu = false;
-            this.pictureEdit4.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom;
-            this.pictureEdit4.Size = new System.Drawing.Size(42, 32);
-            this.pictureEdit4.TabIndex = 21;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -850,12 +850,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).EndInit();
             this.tabPane1.ResumeLayout(false);
             this.homeTab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl11)).EndInit();
+            this.groupControl11.ResumeLayout(false);
+            this.groupControl11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl10)).EndInit();
+            this.groupControl10.ResumeLayout(false);
+            this.groupControl10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);
             this.panelControl4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
             this.optionsTab.ResumeLayout(false);
@@ -865,6 +874,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.onTopSwitch.Properties)).EndInit();
             this.apiToolsTab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).EndInit();
+            this.groupControl9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.apiStatusText.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -890,18 +902,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).EndInit();
-            this.groupControl9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.apiStatusText.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl10)).EndInit();
-            this.groupControl10.ResumeLayout(false);
-            this.groupControl10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl11)).EndInit();
-            this.groupControl11.ResumeLayout(false);
-            this.groupControl11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
