@@ -7,4 +7,6 @@ BenderAPI In C# GUI Form
 
 # 📷 Screenshot
 
-![alt text](https://cdn.discordapp.com/attachments/857580693144338463/975460231851167774/unknown.png)
+![Home](https://cdn.discordapp.com/attachments/857580693144338463/975474034068299796/unknown.png)
+![Control](https://cdn.discordapp.com/attachments/857580693144338463/975474034307391538/unknown.png)
+![Settings](https://cdn.discordapp.com/attachments/857580693144338463/975474033795690526/unknown.png)
